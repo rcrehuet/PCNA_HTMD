@@ -1,0 +1,11 @@
+2017-02-07 16:49:37,247 - htmd.queues.localqueue - INFO - Using GPU devices 0
+2017-02-07 16:49:37,248 - htmd.queues.localqueue - INFO - Queueing /home/ramon/calculs/PCNA/HTMD/prod
+
+Please cite -- HTMD: High-Throughput Molecular Dynamics for Molecular Discovery
+J. Chem. Theory Comput., 2016, 12 (4), pp 1845-1852. 
+http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00049
+
+New devel HTMD version (1.5.14) is available. You are currently on (1.5.13). Use 'conda update -c acellera htmd' to update to the new version.
+
+2017-02-07 16:49:37,248 - htmd.queues.localqueue - INFO - Running /home/ramon/calculs/PCNA/HTMD/prod on GPU device 0
+2017-02-07 17:57:41,245 - htmd.queues.localqueue - INFO - Error in simulation /home/ramon/calculs/PCNA/HTMD/prod. Command '/home/ramon/calculs/PCNA/HTMD/prod/job.sh' returned non-zero exit status 159

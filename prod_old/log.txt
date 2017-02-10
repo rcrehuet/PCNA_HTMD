@@ -1,0 +1,355 @@
+# ACEMD Molecular Dynamics Version [2016.10.27] (git [992255])
+# (c) 2009-2016 Acellera Ltd. http://www.acellera.com
+# See License Agreement for terms and conditions of use
+# or write to support@acellera.com
+#
+# Licensed by Acellera Ltd (http://www.acellera.com)
+# No node-locked license available.
+# No floating licenses available.
+#
+# NO ACEMD Pro license found.
+# ACEMD will run in BASIC mode
+# Some features are disabled
+# Execution limited to the first GPU
+# For licensing contact info@acellera.com
+#
+# Ensemble execution disabled in ACEMD Basic
+# Running on host [puput]
+# CUDA Synchronisation mode: SPIN
+# SWAN: Created context 0 on GPU 0
+# SWAN Device 0	:
+#	Name		: GeForce GTX 680
+#	ECC		: Disabled
+#	Global mem	: 1998MB
+#	Capability	: 3.0
+#	PCI ID		: 0000:02:00.0
+#	Device clock	: 1058MHz
+#	Memory clock	: 3004MHz
+#	Memory width	: 256bit
+# SWAN: Configuring Peer Access:
+# -	
+# SWAN device 0 is NVML device 0 with PCI-ID 0000:02:00.0 and serial [] 
+# NVML : 0 : Fan 20%	 Temp 35C	 Mem Used 75MB Free 1922MB Total 1998MB
+# NVML : 0 : Performance state 0
+# Configuration [GeForce GTX 680] [300] [Linux]
+#
+# WARNING: 1-4scaling is deprecated and has no effect in this release
+#          CHARMM simulations will always use the value 1.0
+#          AMBER simulations will use the per-dihedral scaling term in the prmtop
+# Cell dimensions from XSC file: 93.517563	 143.251801	 106.332298	(t=1000000)
+# Amber: readparm : Reading parm file structure.prmtop
+# PARM file in AMBER 7 format
+# Amber parameter summary
+# 105 Bonds    249 Angles 
+# 250 Dihedral 0 Improper 0 crossterms 0 vdw 0 vdw_pairs
+# Topology reports 139954 atoms
+# -  There are 9 long-range exceptions
+# Max combined s14-exclusion list length is 21
+# Amber SCEE parameters do not vary. Short-circuit further testing
+# -  There are 21 long-range exceptions
+# There are 0 dummy (0 mass) atoms
+# There are 41514 waters in the system
+# MSHAKE: 7218 bonds constrained
+# MSHAKE: removing 7218 degrees of freedom (288102)
+# Scaled the mass of 90246 hydrogens to 4.032000 amu
+# WARNING: Setting PME mesh dimensions: 94x144x108 using spacing of 1.00A
+# There are 288102 degrees of freedom
+# Setting velocity field T=300.000000K
+#WARNING: cannot open file "restart.coor"
+# Removing existing trajectory file output.dcd
+# Removing existing trajectory file output.vel.dcd
+# Removing existing trajectory file output.xtc
+# Removing existing xst file output.xstfile
+#     Step	      Bond	     Angle	     Dihed	      Elec	       VDW	        PE	        KE	  External	     Total	      Temp	      Pres	   PresAve
+         0	 3986.9261	 7943.4994	11924.4524	-535099.9927	57606.5667	-453638.5481	85591.6925	    0.0000	-368046.8556	  299.0031	    0.0000	    0.0000
+# Saved restart file at 5000
+# NVML : 0 : Fan 29%	 Temp 58C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+      5000	 3672.3928	 7939.4720	11945.5521	-534049.3029	57731.8503	-452760.0357	85839.3314	    0.0000	-366920.7043	  299.8682	    0.0000	    0.0000
+# Simulation rate 27.55 (ave) 27.55 (inst) ns/day. Estimated completion Sat Feb 18 14:07:52 2017
+# Saved restart file at 10000
+# NVML : 0 : Fan 33%	 Temp 64C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     10000	 3662.6780	 7893.6402	11914.6485	-534407.6744	57685.4636	-453251.2441	86204.6092	    0.0000	-367046.6349	  301.1443	    0.0000	    0.0000
+# Simulation rate 27.61 (ave) 27.67 (inst) ns/day. Estimated completion Sat Feb 18 13:36:19 2017
+# Saved restart file at 15000
+# NVML : 0 : Fan 35%	 Temp 66C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     15000	 3511.7722	 7889.5997	11905.6023	-534293.8404	57805.2848	-453181.5814	85932.1596	    0.0000	-367249.4218	  300.1925	    0.0000	    0.0000
+# Simulation rate 27.63 (ave) 27.67 (inst) ns/day. Estimated completion Sat Feb 18 13:25:49 2017
+# Saved restart file at 20000
+# NVML : 0 : Fan 37%	 Temp 68C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     20000	 3729.5941	 7800.1594	11780.8896	-534063.0191	57769.1811	-452983.1949	85956.6060	    0.0000	-367026.5889	  300.2779	    0.0000	    0.0000
+# Simulation rate 27.64 (ave) 27.67 (inst) ns/day. Estimated completion Sat Feb 18 13:19:33 2017
+# Saved restart file at 25000
+# NVML : 0 : Fan 38%	 Temp 69C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     25000	 3683.9574	 7895.8647	11907.5667	-534108.8335	57599.4633	-453021.9815	86085.0905	    0.0000	-366936.8910	  300.7267	    0.0000	    0.0000
+# Simulation rate 27.65 (ave) 27.67 (inst) ns/day. Estimated completion Sat Feb 18 13:16:03 2017
+# Saved restart file at 30000
+# NVML : 0 : Performance state 0
+     30000	 3701.2615	 7875.0085	11932.2999	-533246.8047	57256.0857	-452482.1492	86115.5191	    0.0000	-366366.6301	  300.8330	    0.0000	    0.0000
+# Simulation rate 27.65 (ave) 27.68 (inst) ns/day. Estimated completion Sat Feb 18 13:12:28 2017
+# Saved restart file at 35000
+# NVML : 0 : Fan 39%	 Temp 71C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     35000	 3688.1180	 7892.4698	11883.5496	-534367.5488	57567.2667	-453336.1447	86416.8741	    0.0000	-366919.2706	  301.8858	    0.0000	    0.0000
+# Simulation rate 27.66 (ave) 27.68 (inst) ns/day. Estimated completion Sat Feb 18 13:10:07 2017
+# Saved restart file at 40000
+# NVML : 0 : Fan 40%	 Temp 71C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     40000	 3566.3464	 7803.1487	11947.8334	-533680.5468	57243.2298	-453119.9887	85778.0817	    0.0000	-367341.9069	  299.6542	    0.0000	    0.0000
+# Simulation rate 27.66 (ave) 27.70 (inst) ns/day. Estimated completion Sat Feb 18 13:07:01 2017
+# Saved restart file at 45000
+# NVML : 0 : Fan 40%	 Temp 72C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     45000	 3687.0654	 7945.8727	11880.3132	-534187.4563	57575.1873	-453099.0176	86159.1116	    0.0000	-366939.9060	  300.9853	    0.0000	    0.0000
+# Simulation rate 27.67 (ave) 27.70 (inst) ns/day. Estimated completion Sat Feb 18 13:04:30 2017
+# Saved restart file at 50000
+# NVML : 0 : Fan 40%	 Temp 71C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     50000	 3560.0042	 7947.8966	11846.5766	-533615.8464	57535.1060	-452726.2630	86026.6682	    0.0000	-366699.5948	  300.5227	    0.0000	    0.0000
+# Simulation rate 27.66 (ave) 27.56 (inst) ns/day. Estimated completion Sat Feb 18 13:10:29 2017
+# Saved restart file at 55000
+# NVML : 0 : Fan 40%	 Temp 72C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     55000	 3662.1104	 7903.5073	11873.0975	-533354.3747	57131.6487	-452784.0107	85880.5544	    0.0000	-366903.4563	  300.0122	    0.0000	    0.0000
+# Simulation rate 27.64 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 13:20:11 2017
+# Saved restart file at 60000
+# NVML : 0 : Performance state 0
+     60000	 3737.5427	 7904.6408	11872.3235	-534060.1151	57414.3491	-453131.2590	85986.9114	    0.0000	-367144.3476	  300.3838	    0.0000	    0.0000
+# Simulation rate 27.62 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 13:27:52 2017
+# Saved restart file at 65000
+# NVML : 0 : Performance state 0
+     65000	 3593.9553	 7756.1083	11876.3413	-533432.1887	57773.4109	-452432.3728	85866.0335	    0.0000	-366566.3393	  299.9615	    0.0000	    0.0000
+# Simulation rate 27.61 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 13:34:17 2017
+# Saved restart file at 70000
+# NVML : 0 : Performance state 0
+     70000	 3602.0324	 7903.0926	11871.8413	-534342.4171	57856.4060	-453109.0448	85913.1163	    0.0000	-367195.9285	  300.1260	    0.0000	    0.0000
+# Simulation rate 27.60 (ave) 27.46 (inst) ns/day. Estimated completion Sat Feb 18 13:40:24 2017
+# Saved restart file at 75000
+# NVML : 0 : Fan 40%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     75000	 3571.0918	 7909.3954	11820.9018	-533892.7407	57570.4827	-453020.8689	85930.1014	    0.0000	-367090.7675	  300.1853	    0.0000	    0.0000
+# Simulation rate 27.59 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 13:44:57 2017
+# Saved restart file at 80000
+# NVML : 0 : Performance state 0
+     80000	 3646.1706	 7846.6613	11876.7687	-534004.8789	57368.7312	-453266.5471	86063.6060	    0.0000	-367202.9411	  300.6517	    0.0000	    0.0000
+# Simulation rate 27.59 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 13:49:14 2017
+# Saved restart file at 85000
+# NVML : 0 : Fan 41%	 Temp 72C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     85000	 3581.1313	 7794.0615	11877.6753	-534009.1379	57470.2992	-453285.9706	86260.3322	    0.0000	-367025.6383	  301.3389	    0.0000	    0.0000
+# Simulation rate 27.58 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 13:52:37 2017
+# Saved restart file at 90000
+# NVML : 0 : Performance state 0
+     90000	 3639.4413	 7818.4084	11836.4832	-533573.8417	57506.2144	-452773.2943	85917.7338	    0.0000	-366855.5606	  300.1421	    0.0000	    0.0000
+# Simulation rate 27.58 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 13:55:58 2017
+# Saved restart file at 95000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+     95000	 3543.3079	 7861.3475	11857.0693	-534917.9278	57894.5057	-453761.6974	86129.2638	    0.0000	-367632.4336	  300.8811	    0.0000	    0.0000
+# Simulation rate 27.57 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 13:58:59 2017
+# Saved restart file at 100000
+# NVML : 0 : Performance state 0
+    100000	 3721.2045	 7705.7219	11851.0020	-533627.4409	57415.1893	-452934.3232	86059.7733	    0.0000	-366874.5499	  300.6383	    0.0000	    0.0000
+# Simulation rate 27.57 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:01:22 2017
+# Saved restart file at 105000
+# NVML : 0 : Performance state 0
+    105000	 3608.0162	 7913.1558	11890.1762	-533531.4908	57787.4917	-452332.6508	86125.3436	    0.0000	-366207.3073	  300.8674	    0.0000	    0.0000
+# Simulation rate 27.56 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:03:28 2017
+# Saved restart file at 110000
+# NVML : 0 : Performance state 0
+    110000	 3591.9083	 7880.7710	11949.0145	-533396.5580	57179.9274	-452794.9367	85881.5702	    0.0000	-366913.3665	  300.0158	    0.0000	    0.0000
+# Simulation rate 27.56 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:05:36 2017
+# Saved restart file at 115000
+# NVML : 0 : Performance state 0
+    115000	 3607.0529	 7825.4269	11928.6345	-533812.5607	57438.2360	-453013.2105	86120.1848	    0.0000	-366893.0257	  300.8493	    0.0000	    0.0000
+# Simulation rate 27.55 (ave) 27.46 (inst) ns/day. Estimated completion Sat Feb 18 14:08:06 2017
+# Saved restart file at 120000
+# NVML : 0 : Performance state 0
+    120000	 3612.4501	 7908.2421	11838.2314	-534209.2005	57665.7051	-453184.5718	85795.8572	    0.0000	-367388.7146	  299.7163	    0.0000	    0.0000
+# Simulation rate 27.55 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:09:40 2017
+# Saved restart file at 125000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    125000	 3624.0194	 7873.8027	11944.9641	-533882.0632	57357.8672	-453081.4098	86194.6918	    0.0000	-366886.7181	  301.1096	    0.0000	    0.0000
+# Simulation rate 27.55 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:11:05 2017
+# Saved restart file at 130000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    130000	 3698.7033	 7856.3504	11870.6844	-534011.5700	57875.0974	-452710.7346	85729.0480	    0.0000	-366981.6866	  299.4830	    0.0000	    0.0000
+# Simulation rate 27.55 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:12:42 2017
+# Saved restart file at 135000
+# NVML : 0 : Performance state 0
+    135000	 3660.5933	 7812.5661	11905.6277	-533501.9183	57148.8220	-452974.3092	86339.4358	    0.0000	-366634.8734	  301.6153	    0.0000	    0.0000
+# Simulation rate 27.54 (ave) 27.45 (inst) ns/day. Estimated completion Sat Feb 18 14:14:46 2017
+# Saved restart file at 140000
+# NVML : 0 : Performance state 0
+    140000	 3662.7492	 7934.7282	11929.6517	-533140.1660	57191.0892	-452421.9477	86177.0356	    0.0000	-366244.9121	  301.0479	    0.0000	    0.0000
+# Simulation rate 27.54 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:16:07 2017
+# Saved restart file at 145000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    145000	 3543.9969	 7901.4431	11841.2902	-534069.8859	57855.7682	-452927.3874	86322.9114	    0.0000	-366604.4760	  301.5575	    0.0000	    0.0000
+# Simulation rate 27.54 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:17:14 2017
+# Saved restart file at 150000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    150000	 3583.6307	 7937.5677	11816.3593	-533789.7055	57354.3171	-453097.8307	86393.6221	    0.0000	-366704.2086	  301.8046	    0.0000	    0.0000
+# Simulation rate 27.54 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:18:13 2017
+# Saved restart file at 155000
+# NVML : 0 : Performance state 0
+    155000	 3665.1749	 7788.3703	11934.3822	-534303.1484	57649.6476	-453265.5734	86363.3102	    0.0000	-366902.2632	  301.6987	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:19:12 2017
+# Saved restart file at 160000
+# NVML : 0 : Performance state 0
+    160000	 3550.3984	 7882.0917	11915.1338	-534289.8879	58229.1139	-452713.1502	85940.9555	    0.0000	-366772.1947	  300.2232	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:20:03 2017
+# Saved restart file at 165000
+# NVML : 0 : Performance state 0
+    165000	 3665.2180	 7921.3160	11894.1366	-534503.3555	57566.2030	-453456.4819	85925.9363	    0.0000	-367530.5456	  300.1708	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:20:47 2017
+# Saved restart file at 170000
+# NVML : 0 : Performance state 0
+    170000	 3608.2876	 7851.9406	11929.2831	-533864.1081	57537.0356	-452937.5613	85894.1909	    0.0000	-367043.3704	  300.0599	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.50 (inst) ns/day. Estimated completion Sat Feb 18 14:21:24 2017
+# Saved restart file at 175000
+# NVML : 0 : Performance state 0
+    175000	 3721.6368	 7894.3434	11874.8121	-534487.7687	57775.0838	-453221.8926	86022.0468	    0.0000	-367199.8458	  300.5065	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:22:09 2017
+# Saved restart file at 180000
+# NVML : 0 : Performance state 0
+    180000	 3731.0073	 7820.1506	11945.8777	-533947.2061	57654.3608	-452795.8098	85806.1590	    0.0000	-366989.6508	  299.7523	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:23:07 2017
+# Saved restart file at 185000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    185000	 3723.5829	 7954.9314	11921.1048	-534955.3737	58356.1382	-452999.6164	86177.9815	    0.0000	-366821.6350	  301.0512	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:23:46 2017
+# Saved restart file at 190000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    190000	 3698.6830	 7902.1168	11888.8752	-533564.4432	57098.9805	-452975.7878	85907.7653	    0.0000	-367068.0225	  300.1073	    0.0000	    0.0000
+# Simulation rate 27.53 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:24:25 2017
+# Saved restart file at 195000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    195000	 3729.5724	 7762.9806	11813.7401	-534225.5774	57832.9003	-453086.3841	85969.3377	    0.0000	-367117.0463	  300.3224	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:25:13 2017
+# Saved restart file at 200000
+# NVML : 0 : Performance state 0
+    200000	 3637.0793	 7930.5371	11868.8290	-533559.1204	57328.8272	-452793.8478	86387.3701	    0.0000	-366406.4778	  301.7827	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:25:49 2017
+# Saved restart file at 205000
+# NVML : 0 : Performance state 0
+    205000	 3624.9616	 7856.4433	11875.9821	-533501.7305	57578.6132	-452565.7302	85819.4486	    0.0000	-366746.2817	  299.7988	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:26:23 2017
+# Saved restart file at 210000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    210000	 3644.6157	 7904.9738	11858.6754	-533195.9025	57082.6909	-452704.9466	85936.7965	    0.0000	-366768.1501	  300.2087	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:26:54 2017
+# Saved restart file at 215000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    215000	 3714.7242	 7658.7082	11912.5779	-533812.1426	57470.2157	-453055.9166	86127.2052	    0.0000	-366928.7114	  300.8739	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:27:25 2017
+# Saved restart file at 220000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    220000	 3576.2048	 7727.9003	11887.7958	-534401.0518	57876.2636	-453332.8873	86042.9516	    0.0000	-367289.9357	  300.5795	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:27:49 2017
+# Saved restart file at 225000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    225000	 3678.4370	 7823.9766	11892.4268	-533444.4193	57311.3689	-452738.2099	85757.8361	    0.0000	-366980.3739	  299.5835	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:28:21 2017
+# Saved restart file at 230000
+# NVML : 0 : Performance state 0
+    230000	 3597.3719	 8083.2089	11890.1202	-533826.2909	57640.8553	-452614.7346	86039.5518	    0.0000	-366575.1828	  300.5677	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:28:57 2017
+# Saved restart file at 235000
+# NVML : 0 : Performance state 0
+    235000	 3694.9494	 7856.0203	11839.0404	-532791.7716	57273.1278	-452128.6338	86069.3989	    0.0000	-366059.2348	  300.6719	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:29:29 2017
+# Saved restart file at 240000
+# NVML : 0 : Performance state 0
+    240000	 3607.0994	 7899.7491	11806.8107	-533455.7042	57364.3406	-452777.7044	86205.1678	    0.0000	-366572.5366	  301.1462	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:29:55 2017
+# Saved restart file at 245000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    245000	 3631.8097	 7869.2139	11816.2323	-533494.4939	57249.6903	-452927.5477	86248.6968	    0.0000	-366678.8509	  301.2983	    0.0000	    0.0000
+# Simulation rate 27.52 (ave) 27.50 (inst) ns/day. Estimated completion Sat Feb 18 14:30:03 2017
+# Saved restart file at 250000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    250000	 3729.6529	 7809.7713	11847.8007	-533129.0027	57109.3701	-452632.4078	86273.2891	    0.0000	-366359.1186	  301.3842	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:30:37 2017
+# Saved restart file at 255000
+# NVML : 0 : Performance state 0
+    255000	 3562.0383	 7944.4289	11835.1082	-533706.2993	57660.0877	-452704.6361	86265.6492	    0.0000	-366438.9869	  301.3575	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:30:56 2017
+# Saved restart file at 260000
+# NVML : 0 : Performance state 0
+    260000	 3649.5070	 7889.9335	11833.1767	-533573.7222	57283.5615	-452917.5434	85823.7609	    0.0000	-367093.7825	  299.8138	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.47 (inst) ns/day. Estimated completion Sat Feb 18 14:31:22 2017
+# Saved restart file at 265000
+# NVML : 0 : Performance state 0
+    265000	 3688.0958	 7879.5760	11833.3909	-533723.0931	57632.1196	-452689.9108	85977.8086	    0.0000	-366712.1022	  300.3520	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:31:43 2017
+# Saved restart file at 270000
+# NVML : 0 : Performance state 0
+    270000	 3492.9963	 7880.7625	11895.1927	-533550.2004	57414.5784	-452866.6705	85947.6895	    0.0000	-366918.9810	  300.2468	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.50 (inst) ns/day. Estimated completion Sat Feb 18 14:31:52 2017
+# Saved restart file at 275000
+# NVML : 0 : Performance state 0
+    275000	 3553.4695	 7877.9476	11889.6378	-533719.6752	57210.4799	-453188.1405	86097.1466	    0.0000	-367090.9939	  300.7689	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.50 (inst) ns/day. Estimated completion Sat Feb 18 14:32:00 2017
+# Saved restart file at 280000
+# NVML : 0 : Performance state 0
+    280000	 3549.8965	 7899.8571	11872.1812	-533718.4139	57322.9887	-453073.4903	86423.1238	    0.0000	-366650.3665	  301.9076	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:32:13 2017
+# Saved restart file at 285000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    285000	 3711.5761	 7729.8267	11892.2180	-533946.3659	57528.1544	-453084.5906	86322.2689	    0.0000	-366762.3217	  301.5553	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:32:33 2017
+# Saved restart file at 290000
+# NVML : 0 : Performance state 0
+    290000	 3685.0986	 7813.2299	11892.1252	-534332.1196	57690.5764	-453251.0895	85903.3110	    0.0000	-367347.7785	  300.0917	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.50 (inst) ns/day. Estimated completion Sat Feb 18 14:32:42 2017
+# Saved restart file at 295000
+# NVML : 0 : Performance state 0
+    295000	 3779.6506	 7845.6019	11843.1283	-534279.3668	57413.7022	-453397.2838	86081.9613	    0.0000	-367315.3225	  300.7158	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.50 (inst) ns/day. Estimated completion Sat Feb 18 14:32:45 2017
+# Saved restart file at 300000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    300000	 3638.9003	 7895.9870	11829.3113	-534041.4036	57330.2026	-453347.0023	85916.0486	    0.0000	-367430.9537	  300.1362	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:32:59 2017
+# Saved restart file at 305000
+# NVML : 0 : Fan 41%	 Temp 73C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    305000	 3690.5126	 7902.2020	11856.8517	-534371.6793	57897.1679	-453024.9451	85560.4076	    0.0000	-367464.5375	  298.8938	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.48 (inst) ns/day. Estimated completion Sat Feb 18 14:33:14 2017
+# Saved restart file at 310000
+# NVML : 0 : Performance state 0
+    310000	 3567.4672	 7864.2491	11858.7573	-533628.4113	57478.5196	-452859.4181	85679.3497	    0.0000	-367180.0684	  299.3093	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:33:27 2017
+# Saved restart file at 315000
+# NVML : 0 : Fan 41%	 Temp 74C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    315000	 3686.0037	 7810.5779	11891.2400	-534035.1842	57702.5709	-452944.7917	85760.2003	    0.0000	-367184.5914	  299.5918	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:33:36 2017
+# Saved restart file at 320000
+# NVML : 0 : Performance state 0
+    320000	 3606.2871	 7946.3989	11842.8456	-535007.7356	57799.0483	-453813.1557	86360.4939	    0.0000	-367452.6619	  301.6888	    0.0000	    0.0000
+# Simulation rate 27.51 (ave) 27.49 (inst) ns/day. Estimated completion Sat Feb 18 14:33:44 2017
+# Saved restart file at 325000
+# NVML : 0 : Fan 33%	 Temp 63C	 Mem Used 1488MB Free 509MB Total 1998MB
+# NVML : 0 : Performance state 0
+    325000	       nan	       nan	    0.0000	       nan	20301130.0000	       nan	       nan	    0.0000	       nan	       nan	    0.0000	    0.0000
+# The simulation has become unstable. Terminating to avoid lock-up

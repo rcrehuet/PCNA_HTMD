@@ -1,0 +1,77 @@
+-I: Adding /home/ramon/anaconda3/bin/../dat/leap/prep to search path.
+-I: Adding /home/ramon/anaconda3/bin/../dat/leap/lib to search path.
+-I: Adding /home/ramon/anaconda3/bin/../dat/leap/parm to search path.
+-I: Adding /home/ramon/anaconda3/bin/../dat/leap/cmd to search path.
+-I: Adding /home/ramon/progs/htmd/htmd/builder/amberfiles to search path.
+-f: Source ./tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /home/ramon/anaconda3/bin/../dat/leap/cmd/leaprc.ff14SB
+----- Source of /home/ramon/anaconda3/bin/../dat/leap/cmd/leaprc.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/ramon/anaconda3/bin/../dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/ramon/anaconda3/bin/../dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/ramon/anaconda3/bin/../dat/leap/lib/amino12.lib
+Loading library: /home/ramon/anaconda3/bin/../dat/leap/lib/aminoct12.lib
+Loading library: /home/ramon/anaconda3/bin/../dat/leap/lib/aminont12.lib
+Loading library: /home/ramon/anaconda3/bin/../dat/leap/lib/nucleic12.lib
+Loading library: /home/ramon/anaconda3/bin/../dat/leap/lib/atomic_ions.lib
+Loading library: /home/ramon/anaconda3/bin/../dat/leap/lib/solvents.lib
+Loading parameters: /home/ramon/anaconda3/bin/../dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: ./parmBSC1.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Parmbsc1 force-field for DNA
+Loading PDB file: ./input.pdb
+  Added missing heavy atom: .R<ACE 766>.A<CH3 2>
+  Added missing heavy atom: .R<ACE 766>.A<O 6>
+  Added missing heavy atom: .R<ARG 791>.A<O 24>
+  Added missing heavy atom: .R<NME 792>.A<CH3 3>
+  Added missing heavy atom: .R<ACE 793>.A<CH3 2>
+  Added missing heavy atom: .R<ACE 793>.A<O 6>
+  Added missing heavy atom: .R<ARG 818>.A<O 24>
+  Added missing heavy atom: .R<NME 819>.A<CH3 3>
+  total atoms in file: 139930
+  Leap added 24 missing atoms according to residue templates:
+       8 Heavy
+       16 H / lone pairs
+Checking Unit.
+WARNING: There is a bond of 4.460265 angstroms between: 
+-------  .R<CYX 135>.A<SG 8> and .R<CYX 162>.A<SG 8>
+WARNING: There is a bond of 3.894394 angstroms between: 
+-------  .R<CYX 645>.A<SG 8> and .R<CYX 672>.A<SG 8>
+
+ -- ignoring the warnings.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 2822 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CILE	3
+	NMET	3
+	WAT	41514
+  )
+ (no restraints)
+	Quit
